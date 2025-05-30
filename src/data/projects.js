@@ -17,15 +17,16 @@
       title: "Company Ideas Incubator Tool",
       description: "A full-stack MERN web application that allows users to submit, browse, and evaluate startup or project ideas. Users can log in, post their ideas, and receive upvotes or comments from others. Built with user authentication, CRUD functionality, and dynamic UI components.",
       tech: ["MongoDB", "Express", "React", "Node.js", "JavaScript", "HTML", "CSS"],
-      github: "https://github.com/tannoah0586/project3-mern-fe",
-      live: "https://company-ideas-incubator.netlify.app"
+      githubFrontend: "https://github.com/tannoah0586/project3-mern-fe",
+      githubBackend: "https://github.com/wenyu2310/project-3-mern-be",
+      live: "https://ideas-incubator.vercel.app/",
     },
     {
       title: "AWB Tracker",
       description: "A full-stack application to manage and track Air Waybills (AWBs) for freight and logistics. Users can view a list of AWBs, update shipment statuses, and manage sender/receiver details. Built with a React frontend and Express/MongoDB backend, the system streamlines cargo tracking for logistics workflows.",
       tech: ["React", "Node.js", "Express", "MongoDB", "JavaScript", "HTML", "CSS"],
-      github: "https://github.com/tannoah0586/AWB-tracker2-FE",
-      github: "https://github.com/tannoah0586/AWB-Tracker2-BE",
+      githubFrontend: "https://github.com/tannoah0586/AWB-tracker2-FE",
+      githubBackend: "https://github.com/tannoah0586/AWB-Tracker2-BE",
       live: "https://awb-tracker2.vercel.app/"
     },
   ];

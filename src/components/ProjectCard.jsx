@@ -1,6 +1,15 @@
 import React from 'react';
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ 
+    project: {
+    title,
+    description,
+    tech,
+    github,
+    githubFrontend,
+    githubBackend,
+    live,}
+ }) => {
   return (
     <div style={{
       border: '1px solid #ccc',
@@ -9,26 +18,26 @@ const ProjectCard = ({ project }) => {
       marginBottom: '2rem',
       boxShadow: '0 2px 5px rgba(0,0,0,0.1)'
     }}>
-      <h2>{project.title}</h2>
-      <p>{project.description}</p>
-      <p><strong>Tech Stack:</strong> {project.tech.join(", ")}</p>
+      <h2>{title}</h2>
+      <p>{description}</p>
+      <p><strong>Tech Stack:</strong> {tech.join(", ")}</p>
       
-      {project.github && (
+      {github && (
         <p>
-          <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href={github} target="_blank" rel="noopener noreferrer">GitHub</a>
         </p>
       )}
 
-      {project.githubFrontend && project.githubBackend && (
+      {githubFrontend && githubBackend && (
         <p>
-          <a href={project.githubFrontend} target="_blank" rel="noopener noreferrer">Frontend GitHub</a> |{" "}
-          <a href={project.githubBackend} target="_blank" rel="noopener noreferrer">Backend GitHub</a>
+          <a href={githubFrontend} target="_blank" rel="noopener noreferrer">Frontend GitHub</a> |{" "}
+          <a href={githubBackend} target="_blank" rel="noopener noreferrer">Backend GitHub</a>
         </p>
       )}
 
-      {project.live && (
+      {live && (
         <p>
-          <a href={project.live} target="_blank" rel="noopener noreferrer">Live Site</a>
+          <a href={live} target="_blank" rel="noopener noreferrer">Live Site</a>
         </p>
       )}
     </div>
