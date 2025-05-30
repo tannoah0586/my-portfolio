@@ -5,10 +5,13 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import React from 'react';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
