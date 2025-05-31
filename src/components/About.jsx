@@ -1,20 +1,21 @@
 const About = () => {
   return (
-    <div style={{ padding: '2rem' }}>
-      <h1>About Me</h1>
-      <p>
-        Hello! I’m a passionate software engineer who completed the Software Engineering Immersive at General Assembly.
-        During my time there, I gained hands-on experience in building full-stack applications using modern technologies
-        like React, Node.js, Express, and MongoDB.
-      </p>
-      <p>
-        I enjoy solving real-world problems through code and have a growing portfolio of projects that reflect my dedication to clean,
-        efficient, and user-focused software development.
-      </p>
-      <p>
-        Outside of coding, I enjoy runnning and travelling with my fmaily.
-      </p>
-    </div>
+    <section id="about" style={{ padding: '4rem 2rem', backgroundColor: '#f9f9f9' }}>
+      <div style={{ maxWidth: '800px', margin: '0 auto', lineHeight: '1.7', fontSize: '1.1rem' }}>
+        <h1 style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>About Me</h1>
+        <p>
+          Hello! I’m a passionate software engineer who completed the Software Engineering Immersive at General Assembly.
+          During the bootcamp, I built multiple full-stack applications using modern technologies like React, Node.js, Express, and MongoDB.
+        </p>
+        <p>
+          With a background in logistics and supply chain management, I enjoy applying technology to solve real-world operational challenges.
+          I’m committed to writing clean, efficient, and user-focused code that makes a difference.
+        </p>
+        <p>
+          Outside of coding, I love running, traveling with my family, and learning about emerging tech.
+        </p>
+      </div>
+    </section>
   );
 };
 

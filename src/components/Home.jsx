@@ -1,16 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <section style={{ padding: "4rem 2rem", textAlign: "center" }}>
+    <section id='home' style={{ padding: "4rem 2rem", textAlign: "center" }}>
       <img
         src="/Professional Photoshoot 1.JPG"
         alt="Noah Tan Photo"
         style={{
           borderRadius: "50%",
           width: "160px",
-          height: "160px",
+          height: "260px",
           objectFit: "cover",
           marginBottom: "1rem"
         }}
@@ -28,7 +27,7 @@ const Home = () => {
       </p>
 
       <div style={{ marginTop: "2rem" }}>
-        <Link to="/projects" style={buttonStyle}>View Projects</Link>
+        <a href="#projects" style={buttonStyle}>View Projects</a>
         <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" style={{ ...buttonStyle, marginLeft: "1rem" }}>
           Download Resume
         </a>
