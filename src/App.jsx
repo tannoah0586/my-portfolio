@@ -2,13 +2,13 @@
   import Home from './components/Home';
   import About from './components/About';
   import Projects from './components/Projects';
-  import Skills from './components/Skills';
+  import SkillsSection from './components/SkillsSection';
   import Resume from './components/Resume';
   import Contact from './components/Contact';
   import Navbar from './components/Navbar';
   import React from 'react';
 
-  //from data
+  //Importing data to pass as Props to Components
   import skills from './data/skills';
   import projects from './data/projects';
 
@@ -44,8 +44,8 @@
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects projects={projects}/>} />
-            <Route path="/skills" element={<Skills skills={skills}/>} />
+            <Route path="/projects" element={<Projects projects = {projects}/>} />
+            <Route path="/skills" element={<SkillsSection skills = {skills}/>} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<h1> 404 - Page Not Found</h1>}/>
