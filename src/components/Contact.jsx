@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -62,6 +62,28 @@ const Contact = () => {
           </button>
           {sent && <p style={{ color: 'green', marginTop: '1rem' }}>Message sent successfully!</p>}
         </form>
+    
+        <div style={{ marginTop: '3rem' }}>
+          <p style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>Connect with me:</p>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem' }}>
+            <a
+              href="https://www.linkedin.com/in/noah-tan-yongxin/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: '#0077b5', textDecoration: 'none', fontWeight: 'bold' }}
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/tannoah0586"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: '#333', textDecoration: 'none', fontWeight: 'bold' }}
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
