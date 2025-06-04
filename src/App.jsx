@@ -34,7 +34,7 @@ function App() {
         <About />
         <Projects projects={projects} />
         <SkillsSection skills={skills} />
-        <Resume />
+        {/* <Resume /> */}
         <Contact />
       </main>
     </>

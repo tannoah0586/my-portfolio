@@ -2,49 +2,78 @@ import React from "react";
 
 const Home = () => {
   return (
-    <section id='home' style={{ padding: "4rem 2rem", textAlign: "center" }}>
+    <section
+      id="home"
+      style={{
+        padding: "5rem 2rem",
+        textAlign: "center",
+        backgroundColor: "#f2f6fa",
+        color: "#333",
+      }}
+    >
       <img
         src="/Professional Photoshoot 1.JPG"
-        alt="Noah Tan Photo"
+        alt="Noah Tan"
         style={{
           borderRadius: "50%",
           width: "160px",
-          height: "260px",
+          height: "220px",
           objectFit: "cover",
-          marginBottom: "1rem"
+          marginBottom: "1.5rem",
+          border: "4px solid #007bff",
         }}
       />
 
-      <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>
+      <h1 style={{ fontSize: "2.8rem", marginBottom: "0.5rem", fontWeight: 700 }}>
         Hi, I'm Noah Tan 👋
       </h1>
-      <h2 style={{ fontSize: "1.5rem", marginBottom: "1rem", color: "#555" }}>
+      <h2 style={{ fontSize: "1.6rem", marginBottom: "1.5rem", color: "#666", fontWeight: 500 }}>
         Supply Chain Leader turned Full-Stack Developer
       </h2>
-      <p style={{ maxWidth: "600px", margin: "0 auto 2rem", fontSize: "1.1rem", lineHeight: "1.6" }}>
-        With a decade of experience in logistics and a passion for software engineering, I bridge business needs and code. 
-        I enjoy building tools that improve efficiency, automate operations, and solve real-world problems — especially in fast-moving industries like healthcare and supply chain.
+      <p
+        style={{
+          maxWidth: "700px",
+          margin: "0 auto",
+          fontSize: "1.2rem",
+          lineHeight: "1.8",
+        }}
+      >
+        With over a decade of experience in logistics and a passion for software engineering, I bridge business needs and code. I enjoy building tools that improve efficiency, automate operations, and solve real-world problems — especially in fast-moving industries like healthcare and supply chain.
       </p>
 
-      <div style={{ marginTop: "2rem" }}>
-        <a href="#projects" style={buttonStyle}>View Projects</a>
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" style={{ ...buttonStyle, marginLeft: "1rem" }}>
+      <div style={{ marginTop: "2.5rem" }}>
+        <a href="#projects" style={buttonPrimary}>View Projects</a>
+        {/* <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ ...buttonSecondary, marginLeft: "1rem" }}
+        >
           Download Resume
-        </a>
+        </a> */}
       </div>
     </section>
   );
 };
 
-const buttonStyle = {
+const buttonPrimary = {
   display: "inline-block",
   padding: "0.75rem 1.5rem",
   fontSize: "1rem",
   backgroundColor: "#007bff",
   color: "#fff",
+  border: "none",
   borderRadius: "6px",
   textDecoration: "none",
-  transition: "background-color 0.3s",
+  fontWeight: 600,
+  transition: "all 0.3s ease",
+};
+
+const buttonSecondary = {
+  ...buttonPrimary,
+  backgroundColor: "#e2e6ea",
+  color: "#007bff",
+  border: "1px solid #007bff",
 };
 
 export default Home;
