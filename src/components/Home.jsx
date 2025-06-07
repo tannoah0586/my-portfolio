@@ -16,7 +16,7 @@ const Home = () => {
       </h1>
 
       <h2 className="home-subtitle">
-        Supply Chain Leader turned Full-Stack Developer
+        Supply Chain Leader with a passion for Full-Stack Development
       </h2>
 
       <p className="home-description">
