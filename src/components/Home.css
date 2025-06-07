@@ -70,3 +70,30 @@
 .home-btn.secondary:hover {
   background-color: #545b62;
 }
+
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 2rem;
+  }
+
+  .home-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .home-description {
+    font-size: 1rem;
+  }
+
+  .home-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    padding: 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr; /* stack projects on smaller screens */
+  }
+}

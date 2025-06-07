@@ -1,22 +1,32 @@
-import React from 'react';
+import React, { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import "./Navbar.css";
 
 const Navbar = () => {
-    return (
-        <nav style={{ position: "fixed", top: 0, width: "100%", backgroundColor: "#fff", padding: "1rem", zIndex: 1000 }}>
-      <a href="#home" style={linkStyle}>Home</a>
-      <a href="#about" style={linkStyle}>About</a>
-      <a href="#projects" style={linkStyle}>Projects</a>
-      <a href="#skills" style={linkStyle}>Skills</a>
-      <a href="#contact" style={linkStyle}>Contact</a>
-      </nav> 
-    );
-};
+  const [isOpen, setIsOpen] = useState(false);
 
-const linkStyle = {
-  marginRight: "1rem",
-  textDecoration: "none",
-  color: "#333",
-  fontWeight: "bold",
+  const toggleMenu = () => setIsOpen(!isOpen);
+  const closeMenu = () => setIsOpen(false);
+
+  return (
+    <nav className="navbar">
+      <div className="nav-container">
+        <div className="nav-logo">Noah</div>
+        <div className="hamburger" onClick={toggleMenu}>
+          {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+        </div>
+        <div className={`nav-links ${isOpen ? "open" : ""}`}>
+          <a href="#home" onClick={closeMenu}>Home</a>
+          <a href="#about" onClick={closeMenu}>About</a>
+          <a href="#projects" onClick={closeMenu}>Projects</a>
+          <a href="#skills" onClick={closeMenu}>Skills</a>
+          <a href="#contact" onClick={closeMenu}>Contact</a>
+        </div>
+
+
+      </div>
+    </nav>
+  );
 };
 
 export default Navbar;
