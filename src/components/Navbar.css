@@ -21,6 +21,9 @@
 .nav-logo {
   font-weight: bold;
   font-size: 1.2rem;
+  color: #333;
+  margin-left: 0.25rem;
+  transition: color 0.2s;
 }
 
 .nav-links {
@@ -76,4 +79,30 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
 }
+}
+
+.nav-logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-icon-wrapper {
+  display: flex;
+  align-items: flex-end; /* aligns icons to text baseline */
+  margin-left: 0.5rem;
+}
+
+.nav-icon {
+  color: #333;
+  margin-left: 0.5rem;
+  position: relative;
+  top: 1px; /* fine-tune vertical alignment */
+  transition: color 0.2s;
+}
+
+.nav-icon:hover {
+  color: #0077b5; /* LinkedIn blue or GitHub dark */
 }

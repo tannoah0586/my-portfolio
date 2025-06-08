@@ -15,7 +15,7 @@
     },
     {
       title: "Company Ideas Incubator Tool",
-      description: "A full-stack MERN web application that allows users to submit, browse, and evaluate startup or project ideas. Users can log in, post their ideas, and receive upvotes or comments from others. Built with user authentication, CRUD functionality, and dynamic UI components.",
+      description: "Full-stack MERN idea-sharing platform where users can submit, browse, and rate project concepts. Includes secure authentication, core CRUD operations, and interactive feedback.",
       tech: ["MongoDB", "Express", "React", "Node.js", "JavaScript", "HTML", "CSS"],
       githubFrontend: "https://github.com/tannoah0586/project3-mern-fe",
       githubBackend: "https://github.com/wenyu2310/project-3-mern-be",
@@ -23,7 +23,7 @@
     },
     {
       title: "AWB Tracker",
-      description: "A full-stack application to manage and track Air Waybills (AWBs) for freight and logistics. Users can view a list of AWBs, update shipment statuses, and manage sender/receiver details. Built with a React frontend and Express/MongoDB backend, the system streamlines cargo tracking for logistics workflows.",
+      description: "Developed a React, Express, MongoDB (MERN) application to streamline Air Waybill (AWB) management. Enables users to track cargo, update statuses, and manage sender/receiver information for logistics.",
       tech: ["React", "Node.js", "Express", "MongoDB", "JavaScript", "HTML", "CSS"],
       githubFrontend: "https://github.com/tannoah0586/AWB-tracker2-FE",
       githubBackend: "https://github.com/tannoah0586/AWB-Tracker2-BE",
