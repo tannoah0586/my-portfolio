@@ -15,7 +15,7 @@ const About = () => {
           During the bootcamp, I built full-stack applications using React, Node.js, Express, and MongoDB.
         </p>
         <p style={{ marginBottom: "1rem" }}>
-          Previously, I worked in logistics and supply chain for over 10 years, leading cross-functional projects in healthcare. That background taught me to approach problems systematically and deliver practical, impactful solutions.
+          Currently, working in logistics and supply chain for over 10 years, leading cross-functional projects in healthcare. That background taught me to approach problems systematically and deliver practical, impactful solutions.
         </p>
         <p style={{ marginBottom: "1rem" }}>
           I’m especially passionate about building tools that streamline operations, improve decision-making, and support real-world business needs — whether it’s for a startup, SME, or large organization.
