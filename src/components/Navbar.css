@@ -36,6 +36,11 @@
   text-decoration: none;
   color: #333;
   font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #1b00b5; /* LinkedIn blue on hover */
 }
 
 .hamburger {
