@@ -4,7 +4,7 @@
       description: "A web app that tracks cryptocurrency prices using the CoinGecko API, built with Airtable automation.",
       tech: ["React", "JavaScript", "Airtable", "CoinGecko API"],
       github: "https://github.com/yourusername/crypto-tracker",
-      live: "https://crypto-tracker.netlify.app"
+      live: "https://airtable.com/appyRM0vuSW9VXrza/pagO1vYLtnyrsbcHZ/form"
     },
     {
       title: "Singlish Wordle Game",

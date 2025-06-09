@@ -99,8 +99,8 @@
   color: #333;
   margin-left: 0.5rem;
   position: relative;
-  top: 1px; /* fine-tune vertical alignment */
-  transition: color 0.2s;
+  top: 2.5px; /* fine-tune vertical alignment */
+  transition: color 0.25s;
 }
 
 .nav-icon:hover {
