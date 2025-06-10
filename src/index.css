@@ -1,13 +1,16 @@
 
 
 body {
+  background-image: url(../public/Textures/watercolor-textures-6.jpg);
+  background-size: cover;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f4f7fa;
+  background-blend-mode: lightness;
+  background-color: #f7f7f7;
 }
 
 code {
