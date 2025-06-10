@@ -3,7 +3,7 @@
       title: "Crypto Price Tracker",
       description: "A web app that tracks cryptocurrency prices using the CoinGecko API, built with Airtable automation.",
       tech: ["React", "JavaScript", "Airtable", "CoinGecko API"],
-      github: "https://github.com/yourusername/crypto-tracker",
+      github: "https://github.com/tannoah0586/crypto-tracker",
       live: "https://airtable.com/appyRM0vuSW9VXrza/pagO1vYLtnyrsbcHZ/form"
     },
     {
