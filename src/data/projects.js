@@ -1,7 +1,7 @@
   const projects = [
     {
       title: "Crypto Price Tracker",
-      description: "A web app that tracks cryptocurrency prices using the CoinGecko API, built with Airtable automation.",
+      description: "A web app built with Airtable automation that tracks cryptocurrency prices via the CoinGecko API and sends customizable alerts. It serves as a rapid-development alternative to a full-stack application, offering quicker setup and ease of use, though with inherent limitations in deep customization.",
       tech: ["React", "JavaScript", "Airtable", "CoinGecko API"],
       github: "https://github.com/tannoah0586/crypto-tracker",
       live: "https://airtable.com/appyRM0vuSW9VXrza/pagO1vYLtnyrsbcHZ/form"
