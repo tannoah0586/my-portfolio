@@ -42,8 +42,36 @@
 .skill-card {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 0.75rem;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 2.5rem;
+  /* Add a transition to make the wiggle animation smoother when starting/stopping */
+  transition: transform 0.2s ease-in-out;
+}
+
+.skill-card .svg-inline--fa {
+  vertical-align: middle;
+  display: block;
+  margin: 0;
+  padding: 0;
+  
+  transform: rotate(0deg);
+
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect: Apply the wiggle animation when hovering over the skill-card */
+.skill-card:hover .svg-inline--fa {
+  animation: wiggle 0.5s ease-in-out infinite; 
+}
+
+/* Define the wiggle animation */
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); } 
+  50% { transform: rotate(-5deg); } 
+  75% { transform: rotate(5deg); } 
+  100% { transform: rotate(0deg); } 
 }

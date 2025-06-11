@@ -4,7 +4,7 @@ const SkillCard = ({ skill }) => {
   return (
     <li className="skill-card">
       <FontAwesomeIcon icon={skill.icon} style={{ color: skill.color }} size="lg" />
-      <span>{skill.name}</span>
+      {/* <span>{skill.name}</span> */}
     </li>
   );
 };
