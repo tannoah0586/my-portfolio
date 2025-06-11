@@ -52,7 +52,7 @@
 @media (max-width: 768px) {
   .hamburger {
     display: block; /* This should make it appear on mobile */
-    background: white;
+    /* background: white; */
     padding: 1rem;
   }
 
@@ -78,10 +78,10 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background: white;
+  /* background: white; */
   padding: 0.1rem 2rem;
   z-index: 999;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); */
   box-sizing: border-box;
 }
 }
