@@ -1,7 +1,7 @@
 
 
 body {
-  /* background-image: url(../public/Textures/watercolor-textures-15.jpg); */
+  background-image: url(../public/Textures/watercolor-textures-15.jpg);
   background-size: cover;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,8 +9,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-blend-mode: lightness;
+  /* background-blend-mode: lightness; */
   background-color: #f7f7f7;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.85); /* white tint */
+  z-index: -1;
 }
 
 code {
@@ -20,13 +30,6 @@ code {
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: system-ui, sans-serif;
-  background-color: #f5f7fa;
 }
 
 section {

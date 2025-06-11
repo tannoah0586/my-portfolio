@@ -2,11 +2,6 @@ const About = () => {
   return (
     <section
       id="about"
-      style={{
-        padding: "5rem 2rem",
-        backgroundColor: "#ffffff",
-        color: "#333",
-      }}
     >
       <div style={{ maxWidth: "800px", margin: "0 auto", lineHeight: "1.8", fontSize: "1.15rem" }}>
         <h1 style={{ fontSize: "2.4rem", marginBottom: "1.5rem", fontWeight: 700 }}>About Me</h1>

@@ -28,7 +28,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" style={{ padding: '5rem 2rem', backgroundColor: '#f9f9f9' }}>
+    <section id="contact" style={{ padding: '5rem 2rem'}}>
       <div style={{ maxWidth: '600px', margin: '0 auto', textAlign: 'center' }}>
         <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>Contact Me</h2>
         <p style={{ marginBottom: '2rem', fontSize: '1.1rem' }}>
