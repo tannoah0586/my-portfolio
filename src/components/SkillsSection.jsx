@@ -1,23 +1,38 @@
 import SkillCard from "../components/SkillCard";
+import "./SkillsSection.css";
 
 const SkillsSection = ({ skills: { frontend, backend, tools } }) => {
-  const renderList = (title, skillArray) => (
-    <section>
-      <h3 style={{ marginTop: "1.5rem", marginBottom: "0.5rem" }}>{title}</h3>
-      <ul>
-        {skillArray.map((skill) => (
-          <SkillCard key={skill.name} skill={skill} />
-        ))}
-      </ul>
-    </section>
-  );
   return (
-    <section id='skills'>
-      <div style={{ maxWidth: '800px', margin: '0 auto', padding: '2rem' }}>
-        <h1 style={{ fontSize: "2rem", marginBottom: "1.5rem" }}>Skills</h1>
-        {renderList("Frontend", frontend)}
-        {renderList("Backend", backend)}
-        {renderList("Tools", tools)}
+    <section id="skills" className="skills-section">
+      <h1 className="skills-title">Skills</h1>
+
+      <div className="skills-grid">
+        <div className="skill-category">
+          <h3>Frontend</h3>
+          <ul className="skill-list">
+            {frontend.map((skill) => (
+              <SkillCard key={skill.name} skill={skill} />
+            ))}
+          </ul>
+        </div>
+
+        <div className="skill-category">
+          <h3>Backend</h3>
+          <ul className="skill-list">
+            {backend.map((skill) => (
+              <SkillCard key={skill.name} skill={skill} />
+            ))}
+          </ul>
+        </div>
+
+        <div className="skill-category">
+          <h3>Tools</h3>
+          <ul className="skill-list">
+            {tools.map((skill) => (
+              <SkillCard key={skill.name} skill={skill} />
+            ))}
+          </ul>
+        </div>
       </div>
     </section>
   );
