@@ -6,9 +6,10 @@ const Home = () => {
   return (
     <section id="home" className="home-section">
       <img
-        src="/Professional Photoshoot 1.JPG"
-        alt="Noah Tan"
+        src="/Noah_Professional_1.webp"
+        alt="Noah Tan - React Developer"
         className="home-photo-rect"
+        loading='lazy'
       />
 
       <h1 className="home-title">
