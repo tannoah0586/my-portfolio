@@ -21,7 +21,7 @@
 .nav-logo {
   font-weight: bold;
   font-size: 1.2rem;
-  color: #333;
+  color: #7a1cd7;
   margin-left: 0.25rem;
   transition: color 0.2s;
 }
@@ -34,13 +34,13 @@
 
 .nav-links a {
   text-decoration: none;
-  color: #333;
+  color: #7a1cd7;
   font-weight: 600;
   transition: color 0.2s ease;
 }
 
 .nav-links a:hover {
-  color: #1b00b5; /* LinkedIn blue on hover */
+  color: #333; /* LinkedIn blue on hover */
 }
 
 .hamburger {
