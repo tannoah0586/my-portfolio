@@ -11,7 +11,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
       <div className="nav-logo">
-        Noah  
+        <a 
+          href="#home">Noah
+        </a>  
         <span className="nav-icon-wrapper">
           <a
             href="https://linkedin.com/in/noah-tan-yongxin"

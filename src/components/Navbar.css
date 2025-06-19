@@ -24,6 +24,10 @@
   color: #7a1cd7;
   margin-left: 0.25rem;
   transition: color 0.2s;
+  
+}
+.nav-logo a {
+  text-decoration: none;
 }
 
 .nav-links {
