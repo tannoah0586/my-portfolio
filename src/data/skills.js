@@ -11,7 +11,8 @@ import {
 import {
   faDatabase,
   faCode,
-  faServer
+  faServer,
+  faTable
 } from "@fortawesome/free-solid-svg-icons";
 
 const skills = {
