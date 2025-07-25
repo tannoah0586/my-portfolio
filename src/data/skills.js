@@ -24,13 +24,14 @@ const skills = {
   backend: [
     { name: "Node.js", icon: faNode, color: "#3c873a" },
     { name: "Python", icon: faPython, color: "#3776ab" },
-    { name: "MongoDB", icon: faDatabase, color: "#47A248" } // Not official but close
+    { name: "MongoDB", icon: faDatabase, color: "#47A248" } 
   ],
   tools: [
     { name: "Git", icon: faGitAlt, color: "#f34f29" },
     { name: "GitHub", icon: faGithub, color: "#181717" },
     { name: "VS Code", icon: faCode, color: "#007ACC" },
-    { name: "Netlify", icon: faServer, color: "#00C7B7" } // Custom color
+    { name: "Netlify", icon: faServer, color: "#00C7B7" },
+    { name: "Airtable", icon: faTable, color: "#18BFFF" }
   ]
 };
 
