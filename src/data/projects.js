@@ -5,6 +5,12 @@
       tech: ["React", "JavaScript", "Airtable", "CoinGecko API"],
       github: "https://github.com/tannoah0586/crypto-tracker",
       live: "https://airtable.com/appyRM0vuSW9VXrza/pagO1vYLtnyrsbcHZ/form"
+    },{
+      title: "AWB Lite Tracker",
+      description: "A lightweight version of the AWB Tracker built in Airtable for rapid internal use",
+      tech: ["Airtable","JavaScript","API integrations", "Airtable in-build Nodemailer"],
+      github: "https://github.com/tannoah0586/AWB-Tracker-Airtable-Lite-Version/blob/main/README.md",
+      live: "https://airtable.com/appJTBRvo7TmwTumW/pagt2UKSIdz87P8Qa/form"
     },
       {
       title: "AWB Tracker",
