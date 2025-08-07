@@ -20,6 +20,15 @@
       githubBackend: "https://github.com/tannoah0586/AWB-Tracker2-BE",
       live: "https://awb-tracker2.vercel.app/"
     },
+        {
+      title: "Small Business Website & SEO — wlc.sg",
+      description:
+        "Designed and developed a brand-new responsive website for a local education business, migrating from WIX to a modern Vercel-deployed stack. Implemented SEO best practices to improve search visibility, optimise site performance, and drive targeted traffic. Project includes ongoing enhancements based on analytics and user feedback.",
+      tech: ["React", "JavaScript", "Vercel", "SEO", "Domain Management", "Porkbun"],
+      github: "https://github.com/tannoah0586/wlc-website", // Private repo
+      live: "https://wlc-website.vercel.app/",
+    },
+
       {
       title: "Company Ideas Incubator Tool",
       description: "Full-stack MERN idea-sharing platform where users can submit, browse, and rate project concepts. Includes secure authentication, core CRUD operations, and interactive feedback.",
