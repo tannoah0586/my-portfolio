@@ -5,8 +5,7 @@
       tech: ["React", "JavaScript", "Airtable", "CoinGecko API"],
       github: "https://github.com/tannoah0586/crypto-tracker",
       live: "https://airtable.com/appyRM0vuSW9VXrza/pagO1vYLtnyrsbcHZ/form"
-    },
-      {
+    },{
       title: "AWB Lite Tracker",
       description: "A lightweight version of the AWB Tracker built in Airtable for rapid internal use",
       tech: ["Airtable","JavaScript","API integrations", "Airtable in-build Nodemailer"],
@@ -26,7 +25,7 @@
       description:
         "Designed and developed a brand-new responsive website for a local education business, migrating from WIX to a modern Vercel-deployed stack. Implemented SEO best practices to improve search visibility, optimise site performance, and drive targeted traffic. Project includes ongoing enhancements based on analytics and user feedback.",
       tech: ["React", "JavaScript", "Vercel", "SEO", "Domain Management", "Porkbun"],
-      github:  Private Repo,
+      // github: "https://github.com/tannoah0586/wlc-website", // Private repo
       live: "https://wlc-website.vercel.app/",
     },
 
