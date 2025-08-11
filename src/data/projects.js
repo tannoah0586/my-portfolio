@@ -26,7 +26,7 @@
         "Designed and developed a brand-new responsive website for a local education business, migrating from WIX to a modern Vercel-deployed stack. Implemented SEO best practices to improve search visibility, optimise site performance, and drive targeted traffic. Project includes ongoing enhancements based on analytics and user feedback.",
       tech: ["React", "JavaScript", "Vercel", "SEO", "Domain Management", "Porkbun"],
       // github: "https://github.com/tannoah0586/wlc-website", // Private repo
-      live: "https://wlc-website.vercel.app/",
+      live: "https://wlc.sg/",
     },
 
       {
