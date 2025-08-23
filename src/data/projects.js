@@ -1,19 +1,13 @@
   const projects = [
-    {
-      title: "Crypto Price Tracker",
-      description: "A web app built with Airtable automation that tracks cryptocurrency prices via the CoinGecko API and sends customizable alerts. It serves as a rapid-development alternative to a full-stack application, offering quicker setup and ease of use, though with inherent limitations in deep customization.",
-      tech: ["React", "JavaScript", "Airtable", "CoinGecko API"],
-      github: "https://github.com/tannoah0586/crypto-tracker",
-      live: "https://airtable.com/appyRM0vuSW9VXrza/pagO1vYLtnyrsbcHZ/form"
-    },{
-      title: "AWB Lite Tracker",
-      description: "A lightweight version of the AWB Tracker built in Airtable for rapid internal use",
-      tech: ["Airtable","JavaScript","API integrations", "Airtable in-build Nodemailer"],
-      github: "https://github.com/tannoah0586/AWB-Tracker-Airtable-Lite-Version/blob/main/README.md",
-      live: "https://airtable.com/appJTBRvo7TmwTumW/pagt2UKSIdz87P8Qa/form"
-    },
+  {
+        title: "AWB Tracker (Lite airtable version)",
+        description: "A lightweight version of the AWB Tracker built in Airtable for rapid internal use",
+        tech: ["Airtable","JavaScript","API integrations", "Airtable in-build Nodemailer"],
+        github: "https://github.com/tannoah0586/AWB-Tracker-Airtable-Lite-Version/blob/main/README.md",
+        live: "https://airtable.com/appJTBRvo7TmwTumW/pagt2UKSIdz87P8Qa/form"
+      },
       {
-      title: "AWB Tracker",
+      title: "AWB Tracker (Full Stack version)",
       description: "Developed a React, Express, MongoDB (MERN) application to streamline Air Waybill (AWB) management. Enables users to track cargo, update statuses, and manage sender/receiver information for logistics.",
       tech: ["React", "Node.js", "Express", "MongoDB", "JavaScript", "HTML", "CSS"],
       githubFrontend: "https://github.com/tannoah0586/AWB-tracker2-FE",
@@ -28,7 +22,13 @@
       // github: "https://github.com/tannoah0586/wlc-website", // Private repo
       live: "https://wlc.sg/",
     },
-
+    {
+      title: "Crypto Price Tracker",
+      description: "A web app built with Airtable automation that tracks cryptocurrency prices via the CoinGecko API and sends customizable alerts. It serves as a rapid-development alternative to a full-stack application, offering quicker setup and ease of use, though with inherent limitations in deep customization.",
+      tech: ["React", "JavaScript", "Airtable", "CoinGecko API"],
+      github: "https://github.com/tannoah0586/crypto-tracker",
+      live: "https://airtable.com/appyRM0vuSW9VXrza/pagO1vYLtnyrsbcHZ/form"
+    },
       {
       title: "Company Ideas Incubator Tool",
       description: "Full-stack MERN idea-sharing platform where users can submit, browse, and rate project concepts. Includes secure authentication, core CRUD operations, and interactive feedback.",
