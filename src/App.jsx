@@ -4,11 +4,12 @@ import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
 import SkillsSection from './components/SkillsSection';
-import Resume from './components/Resume';
+import Blog from './components/Blog';
 import Contact from './components/Contact';
 
 import skills from './data/skills';
 import projects from './data/projects';
+import blogs from './data/blogs';
 
 // Font Awesome Icons
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -34,7 +35,7 @@ function App() {
         <About />
         <Projects projects={projects} />
         <SkillsSection skills={skills} />
-        {/* <Resume /> */}
+        <Blog blogs={blogs} />
         <Contact />
       </main>
     </>

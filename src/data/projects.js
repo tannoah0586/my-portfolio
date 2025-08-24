@@ -15,7 +15,7 @@
       live: "https://awb-tracker2.vercel.app/"
     },
         {
-      title: "Small Business Website & SEO — wlc.sg",
+      title: "Small Business Website & SEO — wlc.sg (Freelance work)",
       description:
         "Designed and developed a brand-new responsive website for a local education business, migrating from WIX to a modern Vercel-deployed stack. Implemented SEO best practices to improve search visibility, optimise site performance, and drive targeted traffic. Project includes ongoing enhancements based on analytics and user feedback.",
       tech: ["React", "JavaScript", "Vercel", "SEO", "Domain Management", "Exerbytes.sg"],
