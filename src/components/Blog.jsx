@@ -12,7 +12,7 @@ const Blog = ({ blogs }) => {
     <section id="blog" className="blog-section">
       <div className="blog-container">
         <h1>Blog</h1>
-        <p>Welcome to my blog! Here, I share insights, tutorials, and updates on my projects and tech journey.</p>
+        <p>Welcome to my blog! Here, I share insights, and updates on my projects and tech journey.</p>
         <div className="blog-posts">
           {blogs.length > 0 ? (
             blogs.map((post) => (
