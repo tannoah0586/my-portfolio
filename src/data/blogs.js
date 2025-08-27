@@ -9,16 +9,16 @@ const blogs = [
     category: "Case Study",
     tags: ["Supply Chain", "Automation", "Airtable", "APIs"],
     status: "published",
-    starSections: {
-      situation:
-        "In my role at GE Healthcare, AWB tracking was manual and fragmented, requiring multiple logins and manual updates.",
-      task:
-        "I set out to create a lightweight MVP app that automated AWB updates, reduced manual work, and improved visibility.",
-      action:
-        "I tested DHL, FedEx, and DGF APIs with Postman, built an Airtable MVP, automated status notifications every 12 hours, and piloted it with colleagues.",
-      result:
-        "The MVP reduced manual tracking time by ~50%, received positive feedback from users, and demonstrated how low-code solutions can accelerate productivity.",
-  }},
+    content: `
+      Situation: In my role at GE Healthcare, AWB tracking was manual and fragmented, requiring multiple logins and manual updates.
+      
+      Task: I set out to create a lightweight MVP app that automated AWB updates, reduced manual work, and improved visibility.
+      
+      Action: I tested DHL, FedEx, and DGF APIs with Postman, built an Airtable MVP, automated status notifications every 12 hours, and piloted it with colleagues.
+      
+      Result: The MVP reduced manual tracking time by ~50%, received positive feedback from users, and demonstrated how low-code solutions can accelerate productivity.
+    `,
+  },
   {
     id: 2,
     title: "Optimizing SEO for Small Business Websites",
@@ -30,7 +30,6 @@ const blogs = [
     tags: ["SEO", "Web Development", "Vercel"],
     status: "published",
   },
-
 ];
 
 export default blogs;
