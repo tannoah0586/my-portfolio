@@ -9,7 +9,7 @@ const blogs = [
     category: "Case Study",
     tags: ["Supply Chain", "Automation", "Airtable", "APIs"],
     status: "published",
-    content: {
+    starSections: {
       situation:
         "In my role at GE Healthcare, AWB tracking was manual and fragmented, requiring multiple logins and manual updates.",
       task:
