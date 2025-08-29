@@ -20,7 +20,13 @@ const Blog = ({ blogs }) => {
                 <h2>{post.title}</h2>
                 <p className="post-date">{post.date}</p>
                 <p>{post.excerpt}</p>
-                {expandedPost === post.id && <p className="post-content">{post.content}</p>}
+                    {expandedPost === post.id && (
+                      <div className="post-content">
+                        {post.content.split("\n").map((line, idx) => (
+                          line.trim() ? <p key={idx}>{line.trim()}</p> : null
+                        ))}
+                      </div>
+                    )}
                 <button
                   onClick={() => togglePost(post.id)}
                   className="read-more"

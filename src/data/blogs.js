@@ -10,11 +10,11 @@ const blogs = [
     tags: ["Supply Chain", "Automation", "Airtable", "APIs"],
     status: "published",
     content: `
-      Situation: In my role at GE Healthcare, AWB tracking was manual and fragmented, requiring multiple logins and manual updates.
+      Situation: In my role at GE Healthcare, AWB tracking was manual and fragmented, requiring multiple logins and manual updates.\n
       
-      Task: I set out to create a lightweight MVP app that automated AWB updates, reduced manual work, and improved visibility.
+      Task: I set out to create a lightweight MVP app that automated AWB updates, reduced manual work, and improved visibility.\n
       
-      Action: I tested DHL, FedEx, and DGF APIs with Postman, built an Airtable MVP, automated status notifications every 12 hours, and piloted it with colleagues.
+      Action: I tested DHL, FedEx, and DGF APIs with Postman, built an Airtable MVP, automated status notifications every 12 hours, and piloted it with colleagues.\n
       
       Result: The MVP reduced manual tracking time by ~50%, received positive feedback from users, and demonstrated how low-code solutions can accelerate productivity.
     `,
