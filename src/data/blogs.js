@@ -1,6 +1,6 @@
 const blogs = [
   {
-    id: 1,
+    id: 2,
     title: "Case Study: AWB Tracker Lite Automating Air Waybill Tracking",
     excerpt:
       "How I built a lightweight MVP to streamline supply chain AWB tracking using Airtable, APIs, and automation.",
@@ -20,7 +20,7 @@ const blogs = [
     `,
   },
   {
-    id: 2,
+    id: 1,
     title: "Optimizing SEO for Small Business Websites",
     excerpt: "How I improved search rankings for wlc.sg using modern SEO practices.",
     date: "July 15, 2025",
