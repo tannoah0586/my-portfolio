@@ -10,15 +10,15 @@ const blogs = [
       tags: ["Supply Chain", "Automation", "APIs", "KPI Tracking"],
       status: "published",
       content: `
-        **Situation:** At work, extracting key DGF shipment data (weight, booking date, pickup date) was manual. Each AWB required logging in, scrolling, copying, and pasting into tables—taking ~2 minutes per AWB.\n
+        Situation: At work, extracting key DGF shipment data (weight, booking date, pickup date) was manual. Each AWB required logging in, scrolling, copying, and pasting into tables—taking ~2 minutes per AWB.\n
 
-        **Task:** I wanted to eliminate this repetitive task, reduce errors, and improve carrier performance measurement by automating data collection.\n
+        Task: I wanted to eliminate this repetitive task, reduce errors, and improve carrier performance measurement by automating data collection.\n
 
-        **Action:** I built a script that detects new AWB numbers entered into the table, triggers a CRUD API request to DGF, and automatically extracts shipment details (weight, booking date, pickup date). 
+        Action: I built a script that detects new AWB numbers entered into the table, triggers a CRUD API request to DGF, and automatically extracts shipment details (weight, booking date, pickup date). 
 
         One issue I faced was that API calls sometimes failed if I only attempted once. To make the fetch more reliable, I implemented a retry loop with incremental backoff (3 attempts with 1000ms × loop count delays). This significantly improved success rates when fetching live shipment data from DGF.\n
 
-        **Result:** The automation saves hours of manual work weekly, reduces the chance of human error, and improves the accuracy of KPI tracking for lead-time and carrier performance evaluation.\n
+        Result: The automation saves hours of manual work weekly, reduces the chance of human error, and improves the accuracy of KPI tracking for lead-time and carrier performance evaluation.\n
       `
       },
   {
