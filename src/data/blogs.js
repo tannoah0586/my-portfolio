@@ -3,7 +3,7 @@ const blogs = [
       id: 3,
       title: "Case Study: Automating DGF Air Waybill Data Extraction",
       excerpt:
-        "How I built a script to auto-extract shipment details (weight, booking date, pickup date) from DGF AWBs, saving hours of manual work.",
+        "How I built a script to auto-extract shipment details (weight, booking date, pickup date and delivery date) from DGF AWBs, saving hours of manual work.",
       date: "September 29, 2025",
       slug: "dgf-awb-extraction",
       category: "Case Study",
