@@ -10,7 +10,7 @@ const blogs = [
       tags: ["Supply Chain", "Automation", "APIs", "KPI Tracking"],
       status: "published",
       content: `
-        Situation: At work, extracting key DGF shipment data (weight, booking date, pickup date) was manual. Each AWB required logging in, scrolling, copying, and pasting into tables—taking ~2 minutes per AWB.\n
+        Situation: At work, extracting key DGF shipment data (weight, booking date, pickup date and delivery date) was manual. Each AWB required logging in, scrolling, copying, and pasting into tables—taking ~2 minutes per AWB.\n
 
         Task: I wanted to eliminate this repetitive task, reduce errors, and improve carrier performance measurement by automating data collection.\n
 
