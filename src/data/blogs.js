@@ -16,10 +16,10 @@ const blogs = [
 
       Action: I refined the Airtable interface with clear input forms, real-time status views, and automated email/SMS alerts that run every 12 hours until delivery. I shared the read-only dashboard link with key users in China and Japan, and encouraged direct use.\n
 
-      Result: Within two weeks, **users reduced contacting me entirely**. They now add AWBs themselves, get live updates, and only escalate if the app flags a delay (e.g., >2 days past ETA). This saves:\n
-      - **Me**: ~2 hours/week (no more portal logins or copy-paste)\n
-      - **Forwarders**: Fewer status requests\n
-      - **Users**: Instant visibility without waiting on me\n
+      Result: Within two weeks, users reduced contacting me. They now add AWBs themselves, get live updates, and only escalate if the app flags a delay (e.g., >2 days past ETA). This saves:\n
+      - Me: ~2 hours/week (no more portal logins or copy-paste)\n
+      - Forwarders: Fewer status requests\n
+      - Users: Instant visibility without waiting on me\n
 
       The app now runs autonomously—proving that a well-designed low-code tool can scale beyond the creator.
     `
