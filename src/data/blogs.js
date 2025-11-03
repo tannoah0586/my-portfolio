@@ -1,4 +1,29 @@
 const blogs = [
+  {
+    id: 4,
+    title: "User Adoption Win: Airtable AWB Tracker Lite Goes Hands-Off",
+    excerpt:
+      "Users now self-track critical shipments via my Airtable app—freeing me, forwarders, and stakeholders from manual status checks.",
+    date: "November 3, 2025",
+    slug: "awb-tracker-user-adoption",
+    category: "Case Study",
+    tags: ["Supply Chain", "Automation", "Airtable", "User Adoption", "Productivity"],
+    status: "published",
+    content: `
+      Situation: My Airtable AWB Tracker Lite was initially built to reduce my own manual effort—logging into DHL, FedEx, and DGF portals, copying statuses, and notifying users. But users kept asking me to “just check this one AWB” or escalate delays.\n
+
+      Task: Shift from being a human middleman to enabling full self-service so everyone saves time and I can focus on higher-impact work.\n
+
+      Action: I refined the Airtable interface with clear input forms, real-time status views, and automated email/SMS alerts that run every 12 hours until delivery. I shared the read-only dashboard link with key users in China and Japan, trained them via a 5-minute Loom video, and encouraged direct use.\n
+
+      Result: Within two weeks, **users stopped contacting me entirely**. They now add AWBs themselves, get live updates, and only escalate if the app flags a delay (e.g., >2 days past ETA). This saves:\n
+      - **Me**: ~2 hours/week (no more portal logins or copy-paste)\n
+      - **Forwarders**: Fewer status requests\n
+      - **Users**: Instant visibility without waiting on me\n
+
+      The app now runs autonomously—proving that a well-designed low-code tool can scale beyond the creator.
+    `
+  },
       {
       id: 3,
       title: "Case Study: Automating DGF Air Waybill Data Extraction",
