@@ -14,9 +14,9 @@ const blogs = [
 
       Task: Shift from being a human middleman to enabling full self-service so everyone saves time and I can focus on higher-impact work.\n
 
-      Action: I refined the Airtable interface with clear input forms, real-time status views, and automated email/SMS alerts that run every 12 hours until delivery. I shared the read-only dashboard link with key users in China and Japan, trained them via a 5-minute Loom video, and encouraged direct use.\n
+      Action: I refined the Airtable interface with clear input forms, real-time status views, and automated email/SMS alerts that run every 12 hours until delivery. I shared the read-only dashboard link with key users in China and Japan, and encouraged direct use.\n
 
-      Result: Within two weeks, **users stopped contacting me entirely**. They now add AWBs themselves, get live updates, and only escalate if the app flags a delay (e.g., >2 days past ETA). This saves:\n
+      Result: Within two weeks, **users reduced contacting me entirely**. They now add AWBs themselves, get live updates, and only escalate if the app flags a delay (e.g., >2 days past ETA). This saves:\n
       - **Me**: ~2 hours/week (no more portal logins or copy-paste)\n
       - **Forwarders**: Fewer status requests\n
       - **Users**: Instant visibility without waiting on me\n
