@@ -3,7 +3,7 @@ const blogs = [
     id: 4,
     title: "User Adoption Win: Airtable AWB Tracker Lite Goes Hands-Off",
     excerpt:
-      "Users now self-track critical shipments via my Airtable app—freeing me, forwarders, and stakeholders from manual status checks.",
+      "My Airtable app now lets users self-track critical shipments—eliminating manual status checks for me, forwarders, and stakeholders.",
     date: "November 3, 2025",
     slug: "awb-tracker-user-adoption",
     category: "Case Study",
@@ -16,12 +16,12 @@ const blogs = [
 
       Action: I refined the Airtable interface with clear input forms, real-time status views, and automated email/SMS alerts that run every 12 hours until delivery. I shared the read-only dashboard link with key users in China and Japan, and encouraged direct use.\n
 
-      Result: Within two weeks, users reduced contacting me. They now add AWBs themselves, get live updates, and only escalate if the app flags a delay (e.g., >2 days past ETA). This saves:\n
+      Result: Within two weeks, users reduced contacting me. They now add AWBs themselves (I can see the adoption trend directly from the database), receive automatic updates, and only escalate if the app flags a delay (e.g., >2 days past ETA). This saves:\n
       - Me: ~2 hours/week (no more portal logins or copy-paste)\n
       - Forwarders: Fewer status requests\n
       - Users: Instant visibility without waiting on me\n
 
-      The app now runs autonomously—proving that a well-designed low-code tool can scale beyond the creator.
+      The app now operates fully autonomously—proving how a well-designed low-code tool can deliver real operational value and reclaim hours from repetitive work.
     `
   },
       {
