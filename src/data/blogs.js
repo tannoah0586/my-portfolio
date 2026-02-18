@@ -10,19 +10,19 @@ const blogs = [
     tags: ["Supply Chain", "Smartsheet", "Governance", "Vendor Management", "PowerBI"],
     status: "published",
     content: `
-      <b>Situation:</b> Two of our most critical air freight lanes were suffering from extreme lead-time variability. We were operating in a reactive state—constantly chasing updates via email. Data existed in PowerBI, but it was a 'lagging' indicator; we only saw the failure after it happened.<br /><br />
+      Situation: Two of our most critical air freight lanes were suffering from extreme lead-time variability. We were operating in a reactive state—constantly chasing updates via email. Data existed in PowerBI, but it was a 'lagging' indicator; we only saw the failure after it happened.
 
-        <b>Task:</b> I needed to build a proactive 'Early Warning System' that flagged at-risk shipments before they breached the SLA, and more importantly, aligned our performance definitions with our service provider.<br /><br />
+        Task: I needed to build a proactive 'Early Warning System' that flagged at-risk shipments before they breached the SLA, and more importantly, aligned our performance definitions with our service provider.
 
-        <b>Action:</b> I implemented a Smartsheet-based Governance Framework:<br />
-        1. <b>Proactive Monitoring:</b> I created a weekly sync from PowerBI into Smartsheet to bypass firewall restrictions, setting up conditional formatting (Yellow/Red) based on 'Days in Transit.'<br />
-        2. <b>The Metric Shift:</b> I discovered the provider was measuring success using <b>Averages</b>, which masked significant outliers. I pivoted our tracking to <b>P80 and P95 (80th/95th Percentile)</b>. This forced a focus on the most erratic 20% of shipments that were actually causing the supply chain instability.<br />
-        3. <b>Automated Accountability:</b> I configured daily automated triggers. If a shipment hit a 'Red' status, the provider received a notification requiring a root-cause update directly in the sheet—eliminating the need for manual follow-up emails.<br /><br />
+        Action: I implemented a Smartsheet-based Governance Framework:
+        1. Proactive Monitoring: I created a weekly sync from PowerBI into Smartsheet to bypass firewall restrictions, setting up conditional formatting (Yellow/Red) based on 'Days in Transit.'
+        2. The Metric Shift: I discovered the provider was measuring success using <b>Averages</b>, which masked significant outliers. I pivoted our tracking to <b>P80 and P95 (80th/95th Percentile). This forced a focus on the most erratic 20% of shipments that were actually causing the supply chain instability.
+        3. Automated Accountability: I configured daily automated triggers. If a shipment hit a 'Red' status, the provider received a notification requiring a root-cause update directly in the sheet—eliminating the need for manual follow-up emails.
 
-        <b>Result:</b> Within one month, the results were transformative:<br />
-        - <b>Lead Time Stabilization:</b> P95 lead times were brought down significantly and stabilized within the target 15-calendar-day window.<br />
-        - <b>Operational Efficiency:</b> By moving from 'Average' to 'Percentile' tracking, we identified and fixed systemic customs issues that were previously hidden.<br />
-        - <b>Email Reduction:</b> Ad-hoc 'Where is my shipment?' emails dropped by estimated 60% as stakeholders now had a self-service, real-time view of the truth.
+        Result: Within one month, the results were transformative:
+        - Lead Time Stabilization: P95 lead times were brought down significantly and stabilized within the target 15-calendar-day window.
+        - Operational Efficiency: By moving from 'Average' to 'Percentile' tracking, we identified and fixed systemic customs issues that were previously hidden.
+        - Email Reduction: Ad-hoc 'Where is my shipment?' emails dropped by estimated 60% as stakeholders now had a self-service, real-time view of the truth.
       `
   },
   {
