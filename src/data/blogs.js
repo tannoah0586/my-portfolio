@@ -1,29 +1,28 @@
 const blogs = [
-  {
+{
     id: 5,
     title: "Stabilizing Critical Air Freight Lanes with Smartsheet Automation",
     excerpt:
-      "How I used Smartsheet automation to stabilize two erratic service lanes, reducing P80/P95 lead times to under 15 days despite firewall constraints.",
+      "How I used Smartsheet to reveal the 'Average vs. Percentile' gap, resulting in a stabilized supply chain and a 60% reduction in ad-hoc status churn.",
     date: "December 10, 2025",
     slug: "smartsheet-supply-chain-stabilization",
     category: "Case Study",
-    tags: ["Supply Chain", "Smartsheet", "Automation", "Vendor Management", "PowerBI"],
+    tags: ["Supply Chain", "Smartsheet", "Governance", "Vendor Management", "PowerBI"],
     status: "published",
     content: `
-      Situation: Two critical air freight lanes were suffering from high variability. We were reacting to delays after they happened, leading to excessive email churn and missed service levels. Data was trapped in PowerBI behind corporate firewalls, making direct API integration impossible.\n
+      Situation: Two of our most critical air freight lanes were suffering from extreme lead-time variability. We were operating in a reactive state—constantly chasing updates via email. Data existed in PowerBI, but it was a 'lagging' indicator; we only saw the failure after it happened.\n
 
-      Task: I needed a way to proactively monitor these shipments, flag "at-risk" cargo before it breached the SLA, and hold service providers accountable without spending hours on manual emails.\n
+      Task: I needed to build a proactive 'Early Warning System' that flagged at-risk shipments before they breached the SLA, and more importantly, aligned our performance definitions with our service provider.\n
 
-      Action: I built a "Human-in-the-Loop" automation system using Smartsheet. 
-      1. **Hybrid Data Flow:** I established a workflow to manually input weekly data from PowerBI into Smartsheet (bypassing the firewall issue).
-      2. **Automated Logic:** I configured Smartsheet to automatically calculate days-in-transit against the agreed SLA.
-      3. **Visual Management:** Conditional formatting instantly highlights shipments approaching the SLA date in **Yellow** (Warning) and those past due in **Red** (Critical).
-      4. **Automated Governance:** I set up daily automated alerts that trigger emails to service providers for any "Red" or "Yellow" lines, requiring them to input root causes or remediation plans directly into the sheet.\n
+      Action: I implemented a Smartsheet-based Governance Framework:
+      1. **Proactive Monitoring:** I created a weekly sync from PowerBI into Smartsheet to bypass firewall restrictions, setting up conditional formatting (Yellow/Red) based on 'Days in Transit.'
+      2. **The Metric Shift:** I discovered the provider was measuring success using **Averages**, which masked significant outliers. I pivoted our tracking to **P80 and P95 (80th/95th Percentile)**. This forced a focus on the most erratic 20% of shipments that were actually causing the supply chain instability.
+      3. **Automated Accountability:** I configured daily automated triggers. If a shipment hit a 'Red' status, the provider received a notification requiring a root-cause update directly in the sheet—eliminating the need for manual follow-up emails.\n
 
-      Result: After just one month, the noise reduced drastically.
-      - **Email Reduction:** Ad-hoc status checks were replaced by the automated report.
-      - **Stabilization:** The P80 and P95 (80th and 95th percentile) lead times dropped significantly, stabilizing within the target 15-day window.
-      - **Accountability:** Service providers now self-correct before shipments turn red, proving that semi-automated tools can drive massive operational discipline.
+      Result: Within one month, the results were transformative:
+      - **Lead Time Stabilization:** P95 lead times were brought down significantly and stabilized within the target 15-calendar-day window.
+      - **Operational Efficiency:** By moving from 'Average' to 'Percentile' tracking, we identified and fixed systemic customs issues that were previously hidden.
+      - **Email Reduction:** Ad-hoc 'Where is my shipment?' emails dropped by estimated 60% as stakeholders now had a self-service, real-time view of the truth.
     `
   },
   {
