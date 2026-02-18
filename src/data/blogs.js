@@ -1,5 +1,32 @@
 const blogs = [
   {
+    id: 5,
+    title: "Stabilizing Critical Air Freight Lanes with Smartsheet Automation",
+    excerpt:
+      "How I used Smartsheet automation to stabilize two erratic service lanes, reducing P80/P95 lead times to under 15 days despite firewall constraints.",
+    date: "December 10, 2025",
+    slug: "smartsheet-supply-chain-stabilization",
+    category: "Case Study",
+    tags: ["Supply Chain", "Smartsheet", "Automation", "Vendor Management", "PowerBI"],
+    status: "published",
+    content: `
+      Situation: Two critical air freight lanes were suffering from high variability. We were reacting to delays after they happened, leading to excessive email churn and missed service levels. Data was trapped in PowerBI behind corporate firewalls, making direct API integration impossible.\n
+
+      Task: I needed a way to proactively monitor these shipments, flag "at-risk" cargo before it breached the SLA, and hold service providers accountable without spending hours on manual emails.\n
+
+      Action: I built a "Human-in-the-Loop" automation system using Smartsheet. 
+      1. **Hybrid Data Flow:** I established a workflow to manually input weekly data from PowerBI into Smartsheet (bypassing the firewall issue).
+      2. **Automated Logic:** I configured Smartsheet to automatically calculate days-in-transit against the agreed SLA.
+      3. **Visual Management:** Conditional formatting instantly highlights shipments approaching the SLA date in **Yellow** (Warning) and those past due in **Red** (Critical).
+      4. **Automated Governance:** I set up daily automated alerts that trigger emails to service providers for any "Red" or "Yellow" lines, requiring them to input root causes or remediation plans directly into the sheet.\n
+
+      Result: After just one month, the noise reduced drastically.
+      - **Email Reduction:** Ad-hoc status checks were replaced by the automated report.
+      - **Stabilization:** The P80 and P95 (80th and 95th percentile) lead times dropped significantly, stabilizing within the target 15-day window.
+      - **Accountability:** Service providers now self-correct before shipments turn red, proving that semi-automated tools can drive massive operational discipline.
+    `
+  },
+  {
     id: 4,
     title: "User Adoption Win: Airtable AWB Tracker Lite Goes Hands-Off",
     excerpt:
