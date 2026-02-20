@@ -4,7 +4,7 @@ const blogs = [
     title: "Stabilizing Critical Air Freight Lanes with Smartsheet Automation",
     excerpt:
       "How I used Smartsheet to reveal the 'Average vs. Percentile' gap, resulting in a stabilized supply chain and a 60% reduction in ad-hoc status churn.",
-    date: "December 10, 2025",
+    date: "December 11, 2025",
     slug: "smartsheet-supply-chain-stabilization",
     category: "Case Study",
     tags: ["Supply Chain", "Smartsheet", "Governance", "Vendor Management", "PowerBI"],
