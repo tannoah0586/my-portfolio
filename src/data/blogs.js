@@ -16,7 +16,7 @@ const blogs = [
 
         Action: I implemented a Smartsheet-based Governance Framework:
         1. Proactive Monitoring: I created a weekly sync from PowerBI into Smartsheet to bypass firewall restrictions, setting up conditional formatting (Yellow/Red) based on 'Days in Transit.'
-        2. The Metric Shift: I discovered the provider was measuring success using <b>Averages</b>, which masked significant outliers. I pivoted our tracking to <b>P80 and P95 (80th/95th Percentile). This forced a focus on the most erratic 20% of shipments that were actually causing the supply chain instability.
+        2. The Metric Shift: I discovered the provider was measuring success using Averages, which masked significant outliers. I pivoted our tracking to P80 and P95 (80th/95th Percentile). This forced a focus on the most erratic 20% of shipments that were actually causing the supply chain instability.
         3. Automated Accountability: I configured daily automated triggers. If a shipment hit a 'Red' status, the provider received a notification requiring a root-cause update directly in the sheet—eliminating the need for manual follow-up emails.
 
         Result: Within one month, the results were transformative:
