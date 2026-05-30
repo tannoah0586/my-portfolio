@@ -31,6 +31,7 @@ const Home = () => {
         <a href="#projects" className="home-btn primary">View Projects</a>
         <a href="#contact" className="home-btn secondary">Contact Me</a>
       </div>
+      {/* <>hi</> */}
     </section>
   );
 };
