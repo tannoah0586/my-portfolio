@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./Home.css"; // 👈 import the CSS here
 
 const Home = () => {
@@ -7,9 +6,9 @@ const Home = () => {
     <section id="home" className="home-section">
       <img
         src="/Noah_Professional_1.webp"
-        alt="Noah Tan - React Developer"
+        alt="Noah Tan - Technical Supply Chain Leader"
         className="home-photo-rect"
-        loading='lazy'
+        loading="lazy"
       />
 
       <h1 className="home-title">
@@ -17,21 +16,20 @@ const Home = () => {
       </h1>
 
       <h2 className="home-subtitle">
-        Singapore-Based Full Stack Developer | React Portfolio Website
+        Technical Supply Chain Leader & Full Stack Automation Engineer
       </h2>
 
       <p className="home-description">
-        With over a decade of experience in logistics and a passion for software engineering,
-        I bridge business needs and code. I enjoy building tools that improve efficiency,
-        automate operations, and solve real-world problems — especially in fast-moving industries
-        like healthcare and supply chain.
+        I bridge the gap between complex enterprise logistics and modern software development. 
+        With over a decade of domain expertise, I design and deploy full-stack automated tools, 
+        custom API integration scripts, and data pipelines that optimize efficiency and solve 
+        real-world operational bottlenecks in fast-moving global industries.
       </p>
 
       <div className="home-buttons">
-        <a href="#projects" className="home-btn primary">View Projects</a>
-        <a href="#contact" className="home-btn secondary">Contact Me</a>
+        <a href="#projects" className="home-btn primary">View Systems & Projects</a>
+        <a href="#contact" className="home-btn secondary">Get In Touch</a>
       </div>
-      {/* <>hi</> */}
     </section>
   );
 };
